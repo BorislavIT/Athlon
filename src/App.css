@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+
+.checkboxes-preview-container {
+  display: flex;
+  background-color: white;
+  width: 1080px;
+  height: 330px;
+  flex-flow: column nowrap;
+}
+
+.checkboxes-preview-container-top-row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 70%;
+  padding: 50px 50px 0 50px;
+}
+
+.checkboxes-preview-container-top-row > div:not(:last-child) {
+  margin-right: 50px;
+}
+
+.checkboxes-preview-container-bottom-row {
+  width: 100%;
+  height: 30%;
+  padding: 0 50px 0 50px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.checkbox-preview {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 15px;
+}
+
+.checkbox-container:not(.disabled) {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.checkbox-container.checked svg {
+  fill: #007aaa;
+}
+
+.checkbox-container-label {
+  margin-bottom: 15px;
+}
+
+.checkbox-and-label-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.checkbox-and-label-container > div:first-child {
+  margin-right: 10px;
+}
+
+.checkbox-column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.checkbox-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+
+.row > div:first-child {
+  margin-right: 10px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+* {
+  user-select: none;
+}
