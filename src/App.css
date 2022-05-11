@@ -11,10 +11,12 @@ body {
 }
 
 .checkboxes-preview-container {
+  position: relative;
   display: flex;
   background-color: white;
   width: 1080px;
-  height: 330px;
+  height: 350px;
+  padding-top: 20px;
   flex-flow: column nowrap;
 }
 
